@@ -21,3 +21,7 @@ return newArr;
 function prependDriver(name){
   return [name,...drivers];
 }
+
+function removeLastDriver(){
+  return ...drivers.pop()
+}
